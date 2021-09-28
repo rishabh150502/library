@@ -79,8 +79,12 @@
     padding: 5px 20px;
     border-radius: 20px;
 }
-.read:hover,.delete:hover{
+.read:hover{
     background-color: #353535;
+    color: #d9d9d9;
+}
+.delete:hover{
+    background-color: #d61010;
     color: #d9d9d9;
 }
 
@@ -96,4 +100,8 @@
     border-style: none;
     padding: 5px 20px;
     border-radius: 20px;
+}
+.markunRead{
+    background-color: #284b63;
+    color: #d9d9d9;
 }
