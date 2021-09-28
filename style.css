@@ -48,16 +48,34 @@
     flex: 1 1 auto;
     display: flex;
     background-color: #d9d9d9;
-    gap: auto;
     justify-content: left;
     flex-wrap: wrap;
 }
 .book{
     margin: 20px 40px;
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
     background-color: #3c6e71;
     color: #d9d9d9;
-    text-align: center;
     font-size: 26px;
+    white-space: pre-wrap;
+}
+.book-options{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+.read,.delete{
+    background-color: #d9d9d9;
+    color: #3c6e71;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.read:hover,.delete:hover{
+    background-color: #353535;
+    color: #d9d9d9;
 }
