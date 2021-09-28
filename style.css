@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    background-color: #353535;
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 42px;
+    margin-top: 15px;
+}
+.options{
+    margin-bottom: 20px;
+}
+.add{
+    background-color: #ffffff;
+    color: #353535;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.add:hover{
+    background-color: #d9d9d9;
+    box-shadow: 2px 2px 2px 1px rgba(255, 254, 254, 0.2);
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #353535;
+    color: #ffffff;
+    text-align: center;
+}
+.content{
+    flex: 1 1 auto;
+    display: flex;
+    background-color: #d9d9d9;
+    gap: auto;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.book{
+    margin: 20px 40px;
+    width: 350px;
+    height: 250px;
+    background-color: #3c6e71;
+    color: #d9d9d9;
+    text-align: center;
+    font-size: 26px;
+}
