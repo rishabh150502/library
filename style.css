@@ -59,6 +59,10 @@
     color: #d9d9d9;
     font-size: 26px;
     white-space: pre-wrap;
+    box-shadow: 2px 2px 2px 1px rgba(223, 0, 0, 1);
+}
+.book:hover{
+    box-shadow: 3px 3px 3px 1px rgb(255, 0, 0);
 }
 .book-options{
     margin-top: 10px;
@@ -78,4 +82,18 @@
 .read:hover,.delete:hover{
     background-color: #353535;
     color: #d9d9d9;
+}
+
+.form{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.addBook{
+    background-color: #ffffff;
+    color: #353535;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 20px;
 }
